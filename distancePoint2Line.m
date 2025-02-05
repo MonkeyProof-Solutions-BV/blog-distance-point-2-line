@@ -62,7 +62,7 @@ function [d, C, t0] = distancePoint2Line(A, B, P, varargin)
 
 % Copyright (C) 2008-2016 MonkeyProof Solutions BV
 
-%% Checks: 
+%% Checks:
 % - number of inputs
 narginchk(3, 4);
 
@@ -100,8 +100,7 @@ else
     end
 end
 
-%% Algorithm
-
+%% Algorithm:
 % Direction vector 
 M = B - A;
 
